@@ -2,7 +2,7 @@ import mysql.connector
 from mysql.connector import MySQLConnection
 from configparser import ConfigParser
 from datetime import date
-#from mysql.connector import Error
+# mysql.connector import Error
 
 def read_db_config(filename='config file.ini', section='mysql'):
     parser = ConfigParser()
